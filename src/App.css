@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.top-nav {
+  background: black;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-image: url(https://media.istockphoto.com/photos/communication-network-concept-in-cyberspace-abstract-background-picture-id1283633813?b=1&k=20&m=1283633813&s=170667a&w=0&h=GmmR6AkrzW3cfJvr2mrpvVsgQe8AlUkagDbG9Klt7dQ=);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+.navbar-brand > img {
+  max-width: 70px;
+}
+a.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1rem;
 }
 
-.App-link {
-  color: #61dafb;
+a.nav-link:hover {
+  color: wheat !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand img {
+  border-radius: none;
+}
+
+.skills-section {
+  min-height: 60vh;
+  background: #000;
+  color: wheat;
+}
+
+.sec-title {
+  border-bottom: whitesmoke solid 5px;
+  width: 250px;
+}
+
+.sec-content {
+  padding-top: 50px !important;
+}
+
+.sec-content i {
+  font-size: 5rem;
+}
+
+.project {
+  background: #000;
+  color: wheat;
+
+  padding-top: 80px;
+  min-height: 100vh;
+}
+
+.about {
+  background: black;
+  min-height: 60vh;
+  color: wheat;
+}
+
+/* #myimg {
+  top: 40%;
+  transform: translateY(25%);
+} */
+
+.contact-icons {
+  background: #000;
+  min-height: 50vh;
+}
+
+.icons {
+  background: tomato;
+  height: 40vh;
+}
+
+.icons1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  color: wheat;
+}
+
+.icons1 a {
+  color: wheat;
+}
+
+.footer {
+  background: white;
+  min-height: 20vh;
+  color: black;
+  position: relative;
+}
+
+.up {
+  position: absolute;
+  right: 10px;
+  top: -60px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 2rem;
+  border: tomato solid 5px;
+  color: wheat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
